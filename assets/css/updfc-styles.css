@@ -1,0 +1,187 @@
+/* Style for the User Roles Selection */
+/* Main container styling */
+.mainbox {
+    margin: 20px;
+    line-height: 1.4;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+/* Title styling */
+.updfc-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: #333;
+}
+
+/* Inner box for form layout */
+.updfc_innerbox {
+    padding: 20px;
+}
+
+/* General table styling */
+.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+/* Border styling for both table sections */
+.updfc-firstsection, .updfc-secondsection {
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+}
+
+/* Table row styling */
+.updfc-firstsection th {
+    font-weight: bold;
+    width: 40%;
+    padding: 10px 15px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #c3c4c7;
+    border-right: 1px solid #c3c4c7;
+}
+
+.updfc-firstsection td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e1e1e1;   
+}
+
+.updfc-secondsection th {
+    font-weight: bold;
+    width: 40%;
+    padding: 10px 15px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid #c3c4c7;
+    border-right: 1px solid #c3c4c7;
+}
+
+.updfc-secondsection td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* Specific styles for the first section */
+.updfc-firstsection th {
+    background-color: #f7f7f7;
+}
+
+/* Specific styles for the second section */
+.updfc-secondsection th {
+    background-color: #f9f9f9;
+}
+
+/* Styling for checkboxes and labels */
+.form-table label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-table input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Field controls section */
+h2 {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #444;
+}
+
+/* Radio switch styling */
+.radio-switch {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-switch label {
+    display: flex;
+    align-items: center;
+}
+
+.radio-switch input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Adjust width for radio button options */
+.radio-switch label {
+    width: auto;
+    min-width: 80px; /* Adjust as needed to fit text */
+}
+
+.no-roles-message {
+    color: #d9534f; /* Red color for the message */
+    font-weight: bold;
+    margin: 10px 0;
+}
+/* Submit button styling */
+.submit {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-primary {
+    background: #0073aa;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+    background: #006799;
+}
+
+
+/* PayPal donation section styling */
+.paypal-donation {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px solid #0073aa;
+    border-radius: 8px;
+    background: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.paypal-donation p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.donation-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.paypal-button img {
+    display: block;
+    width: auto;
+    max-width: 200px; /* Adjust based on your image size */
+    height: auto;
+    border: 2px solid #0073aa;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paypal-button:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
